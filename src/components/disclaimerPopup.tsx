@@ -16,7 +16,7 @@ export default function DisclaimerDialogue() {
   };
 
   const handleDisagree = () => {
-    window.location.pathname = "";
+    window.location.pathname = "www.google.com";
   };
 
   return (
