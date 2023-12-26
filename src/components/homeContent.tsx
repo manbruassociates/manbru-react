@@ -24,7 +24,7 @@ export default function HomeContent() {
     >
       <Stack>
         <center>
-          <img src="src/assets/logo.svg" alt="Logo" style={{ height: 400 }} />
+          <img src="./assets/logo.svg" alt="Logo" style={{ height: 400 }} />
           <Typography
             sx={{
               p: 3,
@@ -48,7 +48,7 @@ export default function HomeContent() {
             spacing={{ xs: 4, sm: 4, md: 16 }}
           >
             <ServiceCard
-              path="src/assets/logo.svg"
+              path="./assets/logo.svg"
               alt="CA"
               name="CA"
               imageHeight="250px"
@@ -56,7 +56,7 @@ export default function HomeContent() {
               fontSize={32}
             ></ServiceCard>
             <ServiceCard
-              path="src/assets/logo.svg"
+              path="./assets/logo.svg"
               alt="Legal"
               name="LEGAL"
               imageHeight="250px"
