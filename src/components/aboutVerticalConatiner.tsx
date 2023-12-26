@@ -26,14 +26,18 @@ const AboutVerticalConatiner = ({ name, content, imageUrl }: props) => {
             mt: "25px",
           }}
         >
-          <Box sx={{display:{xs:"none",sm:"block"}}} ><img src={imageUrl} width="400px" /></Box>
-          <Box sx={{display:{xs:"block",sm:"none"}}} ><img src={imageUrl} width="300px" /></Box>
+          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+            <img src={imageUrl} width="400px" />
+          </Box>
+          <Box sx={{ display: { xs: "block", sm: "none" } }}>
+            <img src={imageUrl} width="300px" />
+          </Box>
         </Avatar>
       </Container>
       <Container
         sx={{
           width: { xs: "350px", sm: "450px" },
-          height: "600px",
+          height: "450px",
           border: "solid",
           borderTop: 0,
         }}
@@ -42,7 +46,9 @@ const AboutVerticalConatiner = ({ name, content, imageUrl }: props) => {
           <Typography sx={{ p: 1, fontSize: 30, fontWeight: "bold" }}>
             {name}
           </Typography>
-          <Typography sx={{ p: 1, fontSize: {xs:14,sm:16}}}>{content}</Typography>
+          <Typography sx={{ p: 1, fontSize: { xs: 14, sm: 16 } }}>
+            {content}
+          </Typography>
         </Stack>
       </Container>
     </Stack>

@@ -51,7 +51,7 @@ export default function FooterElement() {
 
   const companyName = (
     <Typography
-      sx={{ py: 2, fontSize: { xs: 24, md: 34 }, fontWeight: "bold" }}
+      sx={{ py: 2, fontSize: { xs: 26, md: 34 }, fontWeight: "bold" }}
     >
       Manbru Associates
     </Typography>

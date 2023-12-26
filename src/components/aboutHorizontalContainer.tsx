@@ -64,7 +64,7 @@ const AboutHorizontalContainer = ({
           </Stack>
         ) : (
           <Avatar sx={{ width: "450px", height: "450px", mt: "25px" }}>
-            M
+            <img src={imageUrl} width="450px" />
           </Avatar>
         )}
       </Container>

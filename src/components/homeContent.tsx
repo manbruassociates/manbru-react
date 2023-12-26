@@ -55,7 +55,7 @@ export default function HomeContent() {
             spacing={{ xs: 4, sm: 4, md: 16 }}
           >
             <ServiceCard
-              path="./src/assets/logo.svg"
+              path="./logo.svg"
               alt="CA"
               name="CA"
               imageHeight="250px"
@@ -63,7 +63,7 @@ export default function HomeContent() {
               fontSize={32}
             ></ServiceCard>
             <ServiceCard
-              path="./src/assets/logo.svg"
+              path="./logo.svg"
               alt="Legal"
               name="LEGAL"
               imageHeight="250px"
@@ -77,13 +77,13 @@ export default function HomeContent() {
             <AboutHorizontalContainer
               name="BRUNDA RAO"
               content={brundaContent}
-              imageUrl="src/assets/brunda.jpg"
+              imageUrl="./brunda.JPG"
               right={true}
             ></AboutHorizontalContainer>
             <AboutHorizontalContainer
               name="C A Manjunath P S"
-              content={brundaContent}
-              imageUrl="./src/assets/logo.svg"
+              content={manjuContent}
+              imageUrl="./manju.jpg"
               right={false}
             ></AboutHorizontalContainer>
           </Box>
@@ -92,7 +92,12 @@ export default function HomeContent() {
             <AboutVerticalConatiner
               name="BRUNDA RAO"
               content={manjuContent}
-              imageUrl="src/assets/brunda.jpg"
+              imageUrl="./brunda.JPG"
+            ></AboutVerticalConatiner>
+            <AboutVerticalConatiner
+              name="C A Manjunath P S"
+              content={manjuContent}
+              imageUrl="./manju.jpg"
             ></AboutVerticalConatiner>
           </Box>
         </center>
