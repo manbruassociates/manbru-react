@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import HomeContent from "./homeContent";
+import DisclaimerDialogue from "./disclaimerPopup";
 
 const moveBackground = keyframes`
   0% {
@@ -58,6 +59,7 @@ const MovingBackground: React.FC = () => {
   return (
     <Background>
       <div style={{ overflowY: "auto", height: "100%" }}>
+        <DisclaimerDialogue></DisclaimerDialogue>
         <HomeContent></HomeContent>
       </div>
       {stars}
