@@ -50,7 +50,7 @@ const ServiceCard = ({
           "& .MuiTypography-root": typographyStyles,
           mt: { xs: 0, md: -8 },
         },
-        width: { xs: 0.8, sm: "350px" },
+        width: { xs: 0.8, sm: "300px" , md:"350px" },
         height: "400px",
         border: "solid",
         borderRadius: "12px",

@@ -18,13 +18,20 @@ export default function HomeContent() {
   professionals committed to delivering exceptional legal services, helping clients achieve their objectives in a 
   rapidly evolving business landscape.`;
 
+  const manjuContent = `CA Manjunatha P. S. is a seasoned Chartered Accountant with over two decades of expertise 
+  in finance, specializing in financial management, taxation, and compliance. 
+  With a client-centric approach, he provides tailored financial journeys marked by precision and integrity. 
+  His extensive experience empowers individuals and businesses to achieve their financial goals through valuable 
+  insights and resources. Experience finance through the eyes of this seasoned professional for a secure and 
+  prosperous financial future.`;
+
   return (
     <Container
       sx={{ display: "flex", justifyContent: "center", mt: 4, width: "100vw" }}
     >
       <Stack>
         <center>
-          <img src="./assets/logo.svg" alt="Logo" style={{ height: 400 }} />
+          <img src="./src/assets/logo.svg" alt="Logo" style={{ height: 400 }} />
           <Typography
             sx={{
               p: 3,
@@ -48,7 +55,7 @@ export default function HomeContent() {
             spacing={{ xs: 4, sm: 4, md: 16 }}
           >
             <ServiceCard
-              path="./assets/logo.svg"
+              path="./src/assets/logo.svg"
               alt="CA"
               name="CA"
               imageHeight="250px"
@@ -56,7 +63,7 @@ export default function HomeContent() {
               fontSize={32}
             ></ServiceCard>
             <ServiceCard
-              path="./assets/logo.svg"
+              path="./src/assets/logo.svg"
               alt="Legal"
               name="LEGAL"
               imageHeight="250px"
@@ -76,7 +83,7 @@ export default function HomeContent() {
             <AboutHorizontalContainer
               name="C A Manjunath P S"
               content={brundaContent}
-              imageUrl="src/assets/logo.svg"
+              imageUrl="./src/assets/logo.svg"
               right={false}
             ></AboutHorizontalContainer>
           </Box>
@@ -84,7 +91,7 @@ export default function HomeContent() {
           <Box sx={{ display: { md: "block", lg: "none" } }}>
             <AboutVerticalConatiner
               name="BRUNDA RAO"
-              content={brundaContent}
+              content={manjuContent}
               imageUrl="src/assets/brunda.jpg"
             ></AboutVerticalConatiner>
           </Box>

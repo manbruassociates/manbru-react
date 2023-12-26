@@ -31,7 +31,11 @@ export default function TermsAndConditions() {
 
   return (
     <React.Fragment>
-      <Button variant="text" onClick={handleClickOpen} sx={{ color: "white" }}>
+      <Button
+        variant="text"
+        onClick={handleClickOpen}
+        sx={{ color: "white", fontSize: 18}}
+      >
         Terms & Conditions
       </Button>
       <BootstrapDialog
