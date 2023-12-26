@@ -34,7 +34,7 @@ export default function TermsAndConditions() {
       <Button
         variant="text"
         onClick={handleClickOpen}
-        sx={{ color: "white", fontSize: 18}}
+        sx={{ color: "white", fontSize: { sm: 10, md: 14 } }}
       >
         Terms & Conditions
       </Button>

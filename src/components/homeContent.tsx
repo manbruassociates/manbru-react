@@ -31,7 +31,7 @@ export default function HomeContent() {
     >
       <Stack>
         <center>
-          <img src="./src/assets/logo.svg" alt="Logo" style={{ height: 400 }} />
+          <img src="./public/logo.svg" alt="Logo" style={{ height: 400 }} />
           <Typography
             sx={{
               p: 3,
