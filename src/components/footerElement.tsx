@@ -63,7 +63,7 @@ export default function FooterElement() {
         <Stack
           direction="row"
           sx={{
-            p: 2,
+            py: 2,
             borderTop: 1,
             borderWidth: 4,
             width: 1,
