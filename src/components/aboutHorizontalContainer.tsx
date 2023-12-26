@@ -17,7 +17,7 @@ const AboutHorizontalContainer = ({
     <Stack direction="row" spacing={0} sx={{ my: 16 }}>
       <Container
         sx={{
-          width: right ? "500px" : "800px",
+          width: right ? "500px" : "700px",
           height: "500px",
           border: "solid",
           borderRight: 0,
@@ -47,7 +47,7 @@ const AboutHorizontalContainer = ({
       </Container>
       <Container
         sx={{
-          width: right ? "800px" : "500px",
+          width: right ? "700px" : "500px",
           height: "500px",
           border: "solid",
           borderLeft: 0,

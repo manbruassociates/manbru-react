@@ -10,7 +10,7 @@ function AboutContainer() {
         border: 2,
         borderWidth: 4,
         borderStyle: "bold",
-        width: 1,
+        width: 0.9,
         borderRadius: 5,
       }}
     >

@@ -11,7 +11,7 @@ export default function FooterElement() {
     <Stack
       direction="row"
       spacing={8}
-      sx={{ p: 2, mb: 4, borderTop: 1, borderWidth: 4 }}
+      sx={{ p: 2, mb: 4, borderTop: 1, borderWidth: 4, width:0.9 }}
     >
       <Stack direction="column">
         <Typography sx={{ py: 2, fontSize: 30, fontWeight: "bold" }}>
