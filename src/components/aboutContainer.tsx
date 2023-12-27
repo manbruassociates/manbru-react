@@ -118,7 +118,7 @@ function AboutContainer() {
           <Box sx={{ display: { md: "block", lg: "none" } }}>
             <AboutVerticalConatiner
               name="BRUNDA RAO"
-              content={manjuContent}
+              content={brundaContent}
               imageUrl="./brunda.JPG"
             ></AboutVerticalConatiner>
             <AboutVerticalConatiner
