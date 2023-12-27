@@ -31,7 +31,7 @@ const Background = styled.div`
   width: 100%;
   height: 100%;
   animation: ${moveBackground} 20s linear infinite alternate;
-  background: linear-gradient(to bottom right, #0a1f91, #000);
+  background: linear-gradient(to bottom right, #161a30, #000);
   color: #fff; /* Set text color */
 `;
 
