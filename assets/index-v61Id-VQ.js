@@ -162,7 +162,7 @@ rapidly evolving business landscape.`,dp=`
   width: 100%;
   height: 100%;
   animation: ${DE} 20s linear infinite alternate;
-  background: linear-gradient(to bottom right, #161a30, #000);
+  background: linear-gradient(to bottom right, #0a1f91, #000);
   color: #fff; /* Set text color */
 `,BE=Gc.div`
   position: absolute;
