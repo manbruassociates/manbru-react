@@ -4,6 +4,9 @@ import ServiceCard from "./serviceCard";
 import Headings from "./headings";
 import AboutContainer from "./aboutContainer";
 import FooterElement from "./footerElement";
+import Services from "./services";
+import CAServices from "./constants/caServices";
+import LegalServices from "./constants/legalServices";
 
 export default function HomeContent() {
   return (
@@ -29,23 +32,36 @@ export default function HomeContent() {
           useFlexGap
           flexWrap="wrap"
           spacing={{ xs: 4, sm: 4, md: 16 }}
+          justifyContent="space-evenly"
         >
-          <ServiceCard
-            path="./logo.svg"
-            alt="CA"
-            name="CA"
-            imageHeight="250px"
-            imageWidth="250px"
-            fontSize={32}
-          ></ServiceCard>
-          <ServiceCard
-            path="./logo.svg"
-            alt="Legal"
-            name="LEGAL"
-            imageHeight="250px"
-            imageWidth="250px"
-            fontSize={32}
-          ></ServiceCard>
+          <Services
+            card={
+              <ServiceCard
+                path="./logo.svg"
+                alt="CA"
+                name="CA"
+                imageHeight="250px"
+                imageWidth="250px"
+                fontSize={32}
+              ></ServiceCard>
+            }
+            title="Chartered Accountancy Services"
+            serviceContent={CAServices}
+          ></Services>
+          <Services
+            card={
+              <ServiceCard
+                path="./logo.svg"
+                alt="Legal"
+                name="LEGAL"
+                imageHeight="250px"
+                imageWidth="250px"
+                fontSize={32}
+              ></ServiceCard>
+            }
+            title="Legal Services"
+            serviceContent={LegalServices}
+          ></Services>
         </Stack>
         <Headings title="ABOUT US"></Headings>
         <AboutContainer></AboutContainer>
